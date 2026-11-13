@@ -1,0 +1,576 @@
+[
+  {
+    "id": "CVE-2026-123198",
+    "description": "LMFDB before commit 01829bd contains a server-side template injection vulnerability in the render_knowl function that allows unauthenticated attackers to inject Jinja expressions via request parameter",
+    "cvss_score": 9.8,
+    "published": "2026-11-05T19:17:18.393",
+    "in_kev": false,
+    "epss_score": 0.00845,
+    "poc_count": 1,
+    "poc_examples": [
+      "https://github.com/ParzivalHack/ParzivalHack"
+    ],
+    "priority_score": 15.45
+  },
+  {
+    "id": "CVE-2026-54349",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.1, SQL dashboard-variable substitution used attacker-control",
+    "cvss_score": 9.8,
+    "published": "2026-11-06T21:17:08.947",
+    "in_kev": false,
+    "epss_score": 0.00426,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 14.83
+  },
+  {
+    "id": "CVE-2026-63439",
+    "description": "2FAuth is a web app to manage Two-Factor Authentication (2FA) accounts and generate their security codes. Prior to 8.0.0, when AUTHENTICATION_GUARD=reverse-proxy-guard is enabled, ReverseProxyGuard::u",
+    "cvss_score": 9.8,
+    "published": "2026-11-06T21:17:09.970",
+    "in_kev": false,
+    "epss_score": 0.00406,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 14.82
+  },
+  {
+    "id": "CVE-2026-85295",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, four authentication helpers accepted session tokens signe",
+    "cvss_score": 9.8,
+    "published": "2026-11-06T21:17:10.890",
+    "in_kev": false,
+    "epss_score": 0.00397,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 14.82
+  },
+  {
+    "id": "CVE-2026-68935",
+    "description": "Chartbrew is an open-source web application for creating charts from databases and APIs. In versions 4.8.5 through 5.2.2, API connection creation and update operations accept the internal \u00a0allowPrivat",
+    "cvss_score": 9.1,
+    "published": "2026-11-06T22:17:59.390",
+    "in_kev": false,
+    "epss_score": 0.00553,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 13.82
+  },
+  {
+    "id": "CVE-2026-57567",
+    "description": "Readest is a modern, feature-rich ebook reader designed for seamless cross-platform access and an intuitive reading experience. In affected desktop Tauri builds prior to 0.11.10, the apps/readest-app/",
+    "cvss_score": 8.6,
+    "published": "2026-11-04T22:18:07.013",
+    "in_kev": false,
+    "epss_score": 0.00663,
+    "poc_count": 1,
+    "poc_examples": [
+      "https://github.com/Pig-Tail/Pig-Tail"
+    ],
+    "priority_score": 13.6
+  },
+  {
+    "id": "CVE-2026-82413",
+    "description": "ntopng is a web-based network traffic monitoring application. Prior to 6.7.260717, scripts/lua/rest/v2/add/host/to_scan.lua and scripts/lua/rest/v2/exec/host/schedule_vulnerability_scan.lua accept sca",
+    "cvss_score": 8.8,
+    "published": "2026-11-05T17:18:21.137",
+    "in_kev": false,
+    "epss_score": 0.01072,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 13.52
+  },
+  {
+    "id": "CVE-2026-85712",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, the shared project permission check trusted a caller-cont",
+    "cvss_score": 8.8,
+    "published": "2026-11-06T21:17:11.373",
+    "in_kev": false,
+    "epss_score": 0.00369,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 13.31
+  },
+  {
+    "id": "CVE-2026-104269",
+    "description": "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. From 3.0.0 until 3.0.17, ModSecurity's multipart parser does not apply the RFC 2231 filen",
+    "cvss_score": 8.6,
+    "published": "2026-11-05T16:17:29.377",
+    "in_kev": false,
+    "epss_score": 0.00569,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 13.07
+  },
+  {
+    "id": "CVE-2026-73856",
+    "description": "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. From 3.0.0 until 3.0.17, src/transaction.cc compares a response Content-Type value agains",
+    "cvss_score": 8.6,
+    "published": "2026-11-05T16:17:48.443",
+    "in_kev": false,
+    "epss_score": 0.00565,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 13.07
+  },
+  {
+    "id": "CVE-2026-85736",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, connection creation or update stored attacker-chosen abso",
+    "cvss_score": 8.1,
+    "published": "2026-11-06T21:17:11.757",
+    "in_kev": false,
+    "epss_score": 0.00202,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 12.21
+  },
+  {
+    "id": "CVE-2026-102657",
+    "description": "esm.sh is a no-build content delivery network (CDN) for web development. Prior to server version 137_7, the documented web.NewHandler static file server in web/handler.go joins the URL-decoded r.URL.P",
+    "cvss_score": 7.5,
+    "published": "2026-11-06T21:17:05.863",
+    "in_kev": false,
+    "epss_score": 0.00716,
+    "poc_count": 1,
+    "poc_examples": [
+      "https://github.com/maulanawirawan/maulanawirawan"
+    ],
+    "priority_score": 11.96
+  },
+  {
+    "id": "CVE-2026-49407",
+    "description": "OpenHuman is an open-source agent harness available as a desktop application and Rust library. Before version 0.57.44, its local \u00a0/ws/dictation\u00a0 WebSocket endpoint lacks client authentication and brow",
+    "cvss_score": 7.7,
+    "published": "2026-11-05T17:18:18.690",
+    "in_kev": false,
+    "epss_score": 0.00292,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 11.64
+  },
+  {
+    "id": "CVE-2026-85726",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, a date-typed MongoDB variable placed inside a quoted quer",
+    "cvss_score": 7.5,
+    "published": "2026-11-06T21:17:11.567",
+    "in_kev": false,
+    "epss_score": 0.00307,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 11.34
+  },
+  {
+    "id": "CVE-2026-85708",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, Chart share and embed tokens were signed with CB_SECRET, ",
+    "cvss_score": 7.5,
+    "published": "2026-11-06T21:17:11.183",
+    "in_kev": false,
+    "epss_score": 0.00193,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 11.31
+  },
+  {
+    "id": "CVE-2026-68933",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, public dashboard passwords were stored in plaintext, acce",
+    "cvss_score": 7.5,
+    "published": "2026-11-06T22:17:59.220",
+    "in_kev": false,
+    "epss_score": 0.00191,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 11.31
+  },
+  {
+    "id": "CVE-2026-63213",
+    "description": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Prior to 7.15.2 and 8.10.2, the Upgrade Wizard commit flow trusts the hidden zip_to_dir parame",
+    "cvss_score": 7.2,
+    "published": "2026-11-05T19:17:23.333",
+    "in_kev": false,
+    "epss_score": 0.00552,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 10.97
+  },
+  {
+    "id": "CVE-2026-58128",
+    "description": "Alan: Health Insurance for Android (com.alanmobile) 1.450.0 contains a path traversal vulnerability that allows a co-resident malicious application to write attacker-controlled files outside the inten",
+    "cvss_score": 6.2,
+    "published": "2026-11-04T22:18:07.180",
+    "in_kev": false,
+    "epss_score": 0.00308,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 9.39
+  },
+  {
+    "id": "CVE-2026-49405",
+    "description": "OpenHuman is an open-source agent harness available as a desktop application and Rust library. Before 0.56.0, the local server exposes the server-sent events endpoint at /events without bearer authent",
+    "cvss_score": 6.2,
+    "published": "2026-11-05T17:18:18.457",
+    "in_kev": false,
+    "epss_score": 0.00254,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 9.38
+  },
+  {
+    "id": "CVE-2026-54144",
+    "description": "OpenHuman is an open-source agent harness available as a desktop application and Rust library. Before 0.56.0 on macOS, the runtime injected into a supported remote account webview such as Google Meet ",
+    "cvss_score": 6.1,
+    "published": "2026-11-05T17:18:19.680",
+    "in_kev": false,
+    "epss_score": 0.00495,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 9.3
+  },
+  {
+    "id": "CVE-2026-103020",
+    "description": "OpenEMR is a free and open source electronic health records and medical practice management application. Prior to 8.3.0, the webroot admin.php multisite administration page is enabled without an authe",
+    "cvss_score": 5.3,
+    "published": "2026-11-05T20:17:37.877",
+    "in_kev": false,
+    "epss_score": 0.0035,
+    "poc_count": 2,
+    "poc_examples": [
+      "https://github.com/Pig-Tail/security-research",
+      "https://github.com/Pig-Tail/Pig-Tail"
+    ],
+    "priority_score": 9.05
+  },
+  {
+    "id": "CVE-2026-117531",
+    "description": "@fastify/multipart is the multipart form-data and file upload plugin for the Fastify web framework. In versions 5.3.0 through 10.1.6, the plugin does not propagate a parser error to the file stream wh",
+    "cvss_score": 5.9,
+    "published": "2026-11-02T11:17:30.853",
+    "in_kev": false,
+    "epss_score": 0.00329,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 8.95
+  },
+  {
+    "id": "CVE-2026-103932",
+    "description": "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. From 3.0.5 until 3.0.17, the PCRE2 implementation of @rxGlobal in src/utils/regex.cc conv",
+    "cvss_score": 5.8,
+    "published": "2026-11-05T16:17:24.900",
+    "in_kev": false,
+    "epss_score": 0.00321,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 8.8
+  },
+  {
+    "id": "CVE-2026-97371",
+    "description": "ntopng is a web-based network traffic monitoring application. Prior to 6.7.260721, ndpi_get_custom_category_match writes a four-byte nDPI protocol-category value through a pointer to the two-byte id v",
+    "cvss_score": 5.3,
+    "published": "2026-11-05T17:18:22.323",
+    "in_kev": false,
+    "epss_score": 0.00484,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 8.1
+  },
+  {
+    "id": "CVE-2026-120971",
+    "description": "A flaw was found in RESTEasy's default exception mapper. When an unhandled exception other than a WebApplicationException is not handled by an application exception mapper, RESTEasy returns the except",
+    "cvss_score": 5.3,
+    "published": "2026-11-03T05:18:34.670",
+    "in_kev": false,
+    "epss_score": 0.00343,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 8.05
+  },
+  {
+    "id": "CVE-2026-121587",
+    "description": "Coolify before 4.1.1 contains an information disclosure vulnerability that allows unauthenticated attackers to enumerate application names across all teams via manual GitHub, GitLab, Bitbucket and Git",
+    "cvss_score": 5.3,
+    "published": "2026-11-03T17:18:11.040",
+    "in_kev": false,
+    "epss_score": 0.00273,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 8.03
+  },
+  {
+    "id": "CVE-2025-12544",
+    "description": "The Publisher portal fails to enforce proper validation on uploaded SVG files, allowing users with the Publisher role to inject malicious scripts. This weakness can be exploited by uploading a crafted",
+    "cvss_score": 4.8,
+    "published": "2026-11-02T11:17:30.477",
+    "in_kev": false,
+    "epss_score": 0.002,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 7.26
+  },
+  {
+    "id": "CVE-2026-103320",
+    "description": "IBM WebSphere Application Server Liberty 17.0.0.3 through 26.0.0.10 could allow an authenticated user with the Reader role to obtain sensitive information.",
+    "cvss_score": 4.3,
+    "published": "2026-11-08T16:16:36.443",
+    "in_kev": false,
+    "epss_score": null,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 6.45
+  },
+  {
+    "id": "CVE-2026-120215",
+    "description": "@fastify/cors is the CORS plugin for the Fastify web framework. In versions 8.2.0 through 11.3.x, an application that registers the plugin with the non-default onSend hook option crashes on a CORS pre",
+    "cvss_score": 3.7,
+    "published": "2026-11-02T11:17:31.413",
+    "in_kev": false,
+    "epss_score": 0.00291,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 5.64
+  },
+  {
+    "id": "CVE-2026-61813",
+    "description": "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. Prior to 2.9.15 and 3.0.17, the HttpsClient::download function in src/utils/https_client.",
+    "cvss_score": 3.7,
+    "published": "2026-11-05T16:17:47.797",
+    "in_kev": false,
+    "epss_score": 0.00155,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 5.6
+  },
+  {
+    "id": "CVE-2026-118516",
+    "description": "The Symfony Routing components\u00a0CompiledUrlMatcher and UrlMatcher\u00a0interpret the host and path information differently, allowing\u00a0path-based authorization rules to be bypassed in Symfony versions prior t",
+    "cvss_score": null,
+    "published": "2026-11-04T13:17:26.100",
+    "in_kev": false,
+    "epss_score": 0.00446,
+    "poc_count": 2,
+    "poc_examples": [
+      "https://github.com/lukodp/honorari",
+      "https://github.com/JAguilar4k/ArchivumParfums-Hexagonal"
+    ],
+    "priority_score": 1.13
+  },
+  {
+    "id": "CVE-2026-111752",
+    "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. Prior to 20.3.33, 21.2.25, and 22.2.1, @angular/router in Node.js se",
+    "cvss_score": null,
+    "published": "2026-11-03T21:16:57.993",
+    "in_kev": false,
+    "epss_score": 0.00988,
+    "poc_count": 1,
+    "poc_examples": [
+      "https://github.com/SkyZeroZx/SkyZeroZx"
+    ],
+    "priority_score": 0.8
+  },
+  {
+    "id": "CVE-2026-111754",
+    "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. Prior to 20.3.33, 21.2.25, and 22.2.1, ServerPlatformLocation in Ang",
+    "cvss_score": null,
+    "published": "2026-11-03T21:16:58.203",
+    "in_kev": false,
+    "epss_score": 0.00977,
+    "poc_count": 1,
+    "poc_examples": [
+      "https://github.com/SkyZeroZx/SkyZeroZx"
+    ],
+    "priority_score": 0.79
+  },
+  {
+    "id": "CVE-2026-111751",
+    "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. From 21.2.0 until 21.2.25 and 22.2.1, RouterLink directives rendered",
+    "cvss_score": null,
+    "published": "2026-11-03T21:16:57.800",
+    "in_kev": false,
+    "epss_score": 0.00659,
+    "poc_count": 1,
+    "poc_examples": [
+      "https://github.com/SkyZeroZx/SkyZeroZx"
+    ],
+    "priority_score": 0.7
+  },
+  {
+    "id": "CVE-2026-111753",
+    "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. Prior to 20.3.34 and 21.0.3, the @angular/common HttpClient function",
+    "cvss_score": null,
+    "published": "2026-11-05T21:18:35.800",
+    "in_kev": false,
+    "epss_score": 0.00537,
+    "poc_count": 1,
+    "poc_examples": [
+      "https://github.com/Prat007ai/cveharbor"
+    ],
+    "priority_score": 0.66
+  },
+  {
+    "id": "CVE-2026-34157",
+    "description": "Wails is a framework for building desktop applications using Go and web technologies. From 2.0.0 until 2.13.0, BindingsAllowedOrigins in v2/internal/frontend/originvalidator/originValidator.go passes ",
+    "cvss_score": null,
+    "published": "2026-11-05T21:18:47.300",
+    "in_kev": false,
+    "epss_score": 0.00499,
+    "poc_count": 1,
+    "poc_examples": [
+      "https://github.com/Saku0512/CVE-2026-34157-poc"
+    ],
+    "priority_score": 0.65
+  },
+  {
+    "id": "CVE-2026-86005",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.3, the administrative BullMQ dashboard was mounted without a",
+    "cvss_score": null,
+    "published": "2026-11-06T21:17:12.117",
+    "in_kev": false,
+    "epss_score": 0.00468,
+    "poc_count": 1,
+    "poc_examples": [
+      "https://github.com/Ostorlab/agent_asteroid"
+    ],
+    "priority_score": 0.64
+  },
+  {
+    "id": "CVE-2026-54912",
+    "description": "WebAssembly Micro Runtime (WAMR) is a lightweight standalone WebAssembly (Wasm) runtime. Prior to 2.4.5, the two-pass fast interpreter loader in core/iwasm/interpreter/wasm_loader.c can make inconsist",
+    "cvss_score": null,
+    "published": "2026-11-05T18:17:08.523",
+    "in_kev": false,
+    "epss_score": 0.00451,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.14
+  },
+  {
+    "id": "CVE-2026-108049",
+    "description": "Clickjacking vulnerability in the Alosuite web application. The affected login interface can be embedded in a web page controlled by an attacker because it does not implement adequate user interface p",
+    "cvss_score": null,
+    "published": "2026-11-03T13:17:17.630",
+    "in_kev": false,
+    "epss_score": 0.0042,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.13
+  },
+  {
+    "id": "CVE-2026-96677",
+    "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Apache Juneau.\n\nHTML document serialization does not HTML-encode variable substitutions in the pag",
+    "cvss_score": null,
+    "published": "2026-11-05T12:17:51.620",
+    "in_kev": false,
+    "epss_score": 0.00444,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.13
+  },
+  {
+    "id": "CVE-2026-100358",
+    "description": "SuiteCRM is an open-source, enterprise-ready Customer Relationship Management (CRM) software application. Prior to 7.15.2 and 8.10.2, the Studio Dropdown Editor passes $dropdown_name through html_enti",
+    "cvss_score": null,
+    "published": "2026-11-05T19:16:55.400",
+    "in_kev": false,
+    "epss_score": 0.0037,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.11
+  },
+  {
+    "id": "CVE-2026-69128",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. In 5.2.2, the AI SQL blocklist omitted sibling PostgreSQL filesystem func",
+    "cvss_score": null,
+    "published": "2026-11-06T22:17:59.570",
+    "in_kev": false,
+    "epss_score": 0.00356,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.11
+  },
+  {
+    "id": "CVE-2026-102927",
+    "description": "HedgeDoc is an open source, real-time collaborative markdown notes application. Prior to 1.11.1, the WebSocket permission handler allows a note owner to store strings outside the supported freely, edi",
+    "cvss_score": null,
+    "published": "2026-11-05T18:16:59.140",
+    "in_kev": false,
+    "epss_score": 0.00321,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.1
+  },
+  {
+    "id": "CVE-2026-54589",
+    "description": "Chartbrew is an open-source web application that can connect directly to databases and APIs and use the data to create charts. Prior to 5.2.1, the outbound URL guard recognized ordinary IPv4, IPv6, an",
+    "cvss_score": null,
+    "published": "2026-11-06T21:17:09.143",
+    "in_kev": false,
+    "epss_score": 0.00344,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.1
+  },
+  {
+    "id": "CVE-2026-118513",
+    "description": "Authentication bypass by spoofing in\u00a0X509Authenticator\u00a0and\u00a0X509AuthenticationListener\u00a0of Symfony versions prior to 5.4.56, 6.x prior to 6.4.50, 7.x prior to 7.4.23, and 8.x prior to 8.1.11 allows an a",
+    "cvss_score": null,
+    "published": "2026-11-04T13:17:25.890",
+    "in_kev": false,
+    "epss_score": 0.0027,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.08
+  },
+  {
+    "id": "CVE-2026-121880",
+    "description": "Authorization bypass through user-controlled key in the localhost port-proxy (/p/<token>/) in Posit Software, PBC RStudio Server and Posit Workbench before 2026.08.0 allows remote authenticated users ",
+    "cvss_score": null,
+    "published": "2026-11-06T16:17:52.943",
+    "in_kev": false,
+    "epss_score": 0.00252,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.08
+  },
+  {
+    "id": "CVE-2026-114627",
+    "description": "Web::Simple versions before 0.036 for Perl do not escape values interpolated into double-quoted strings in HTML::Tags output.\n\nUnder use HTML::Tags or use XML::Tags, a double-quoted string literal bec",
+    "cvss_score": null,
+    "published": "2026-11-04T15:17:35.167",
+    "in_kev": false,
+    "epss_score": 0.00227,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.07
+  },
+  {
+    "id": "CVE-2026-121145",
+    "description": "This vulnerability exists in the iRA 2.0 and iRA.ev mobile applications due to insufficient validation of URLs and origins loaded within the WebView component. A remote attacker could exploit this vul",
+    "cvss_score": null,
+    "published": "2026-11-04T13:17:26.897",
+    "in_kev": false,
+    "epss_score": 0.00212,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.06
+  },
+  {
+    "id": "CVE-2026-114229",
+    "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in the Catalog image viewer in Apache OFBiz 24.09 before 24.09.08 on all platforms allows an unauthenticated attack",
+    "cvss_score": null,
+    "published": "2026-11-05T14:17:00.453",
+    "in_kev": false,
+    "epss_score": 0.00195,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.06
+  },
+  {
+    "id": "CVE-2026-63183",
+    "description": "OmniAuth is a flexible authentication system utilizing Rack middleware. Prior to 2.2.0, OmniAuth derives provider callback URLs from request-controlled host information when neither a fixed full_host ",
+    "cvss_score": null,
+    "published": "2026-11-04T19:17:40.650",
+    "in_kev": false,
+    "epss_score": 0.00181,
+    "poc_count": 0,
+    "poc_examples": [],
+    "priority_score": 0.05
+  }
+]
